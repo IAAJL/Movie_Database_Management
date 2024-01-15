@@ -12,9 +12,9 @@ Softwares:
 <br><br>
 Team Members:<br>
 1 - AP Vibin<br>
-6 - Abijith<br>
-14 - Aravind<br>
-23 - Feba<br>
+6 - Abijith AR<br>
+14 - Aravind JL<br>
+23 - Feba Mariyam Jacob<br>
 30 - Nandana K<br>
 43 - Nandini K<br>
 
