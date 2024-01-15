@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .signup-container {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .signup-container h2 {
+            color: #333;
+        }
+
+        .signup-container label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .signup-container input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .signup-container button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .signup-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="signup-container">
+        <h2>Search Shows</h2>
+        <form action="http://localhost:8000/searchshow" method="post">
+            <label for="username">Movie name:</label>
+            <input type="text" id="mname" name="mname">
+
+            <label for="email">theatre:</label>
+            <input type="text" id="theatre" name="theatre" >
+
+            <label for="password">Show:</label>
+            <input type="text" id="show" name="show" >
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" >
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+</body>
+</html>

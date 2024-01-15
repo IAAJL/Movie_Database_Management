@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Booking Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .movie-container {
+      display: flex;
+      flex-direction: column; /* Added CSS rule */
+      justify-content: center;
+      padding: 20px;
+      text-decoration: none;
+    }
+
+    .movie-card {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin: 10px;
+      overflow: hidden;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+      text-decoration: none;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .movie-card h3 {
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .movie-card p {
+      color: #777;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Movie Booking</h1>
+  </header>
+  <div class="movie-container">
+    <div class="movie-card">
+      <img src="movie1.jpg" alt="Movie 1">
+      <h3>Movie Title 1</h3>
+      <p>Genre: Action</p>
+    </div>
+    <!-- Add more movie cards as needed -->
+    <div class="movie-container">
+        <div class="movie-card">
+          <img src="movie1.jpg" alt="Movie 1">
+          <h3>Movie Title 1</h3>
+          <p>Genre: Action</p>
+        </div>
+        <div class="movie-container">
+            <div class="movie-card">
+              <img src="movie1.jpg" alt="Movie 1">
+              <h3>Movie Title 1</h3>
+              <p>Genre: Action</p>
+            </div>
+            <div class="movie-container">
+                <div class="movie-card">
+                  <img src="movie1.jpg" alt="Movie 1">
+                  <h3>Movie Title 1</h3>
+                  <p>Genre: Action</p>
+                </div>
+  </div>
+</body>
+</html>
